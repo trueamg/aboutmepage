@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    background-image: url("https://images.unsplash.com/photo-1506874101255-0b89005ee4ad?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNDk4MDkwMg&ixlib=rb-1.2.1&q=85");
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .btn {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .default {
+    border-color: #e7e7e7;
+    color: black;
+  }
+  
+  .default:hover {
+    background: #e7e7e7;
+  }
+  
+  #congratulation {
+    display: none;
+  }
